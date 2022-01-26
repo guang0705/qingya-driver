@@ -1,0 +1,20 @@
+{
+  "name": "qingya/driver",
+  "description": "缓存、日志、数据库、异常 等常用底层驱动包",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "qingya",
+      "email": "qingyavip@126.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "QingYa\\Driver\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1"
+  }
+}
